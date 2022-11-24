@@ -1,0 +1,43 @@
+html {
+	scroll-behavior: smooth;
+}
+html: :-webkit-scrollbar {
+	display: none;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	border-spacing: 10px;
+
+}
+.container-fluid {
+	background: linear-gradient(to right top, #d16b81, #d16191, #c85aa6, #b65abd, #9460d6, #7776e9, #5189f7, #009aff, #00b6ff, #00d0ff, #00e7fc, #5ffbf1);
+}
+#main-nav {
+	background-color: transparent;
+	background: linear-gradient(to right top, #d16b81, #d16191, #c85aa6, #b65abd, #9460d6, #7776e9, #5189f7, #009aff, #00b6ff, #00d0ff, #00e7fc, #5ffbf1);
+}
+section {
+	height: 90vh;
+	font-family: 'initial;', sans-serif;
+}
+
+#home {
+	background: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	/*background-position: top;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'initial;', sans-serif;
+	width: 100vw;
+}
+.custom-col {
+	margin-top: 20%;
+}
+
+.spacing {
+	margin-top: 8%;
+}
+#gmap {
+	border: 0;
+	margin: 0;
+	padding-left: 5;
+}
